@@ -9,7 +9,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "destination": "angular-firebase-app/src/index.html"
       }
     ]
   }
