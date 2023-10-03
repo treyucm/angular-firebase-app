@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "public": "public",
+    "source": "./angular-firebase-app",
+
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -9,7 +10,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "angular-firebase-app/src/index.html"
+        "destination": "index.html"
       }
     ]
   }
